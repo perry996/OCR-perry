@@ -1,0 +1,15 @@
+#功能
+1、选择任意文件夹，并批量识别图片中的中英文
+
+#安装
+
+1、安装目录下的tesseract-ocr-w64-setup-5.3.1.20230401文件，开源代码地址为：https://github.com/UB-Mannheim/tesseract/tree/windows
+2、安装后将中文数据包chi_sim.traineddata放入tesseract-ocr安装文件夹下tessdata文件夹
+
+
+#配置
+1、点击电脑搜索框搜索编辑系统环境变量-高级-环境变量-系统变量-path-编辑-新建-输入tesseract-ocr安装地址，默认安装路径为C:\Program Files\Tesseract-OCR       -保存-重启软件或编辑器
+
+#使用
+1、找到pyhon可执行下dist文件夹
+2、点击名为OCR.exe的文件即可使用
